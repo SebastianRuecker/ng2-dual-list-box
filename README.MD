@@ -1,17 +1,8 @@
-# ng2-dual-list-box
+# ng2-dual-selector
 
-An Angular 4 component inspired by the following jQuery library: https://github.com/Geodan/DualListBox
+An Angular 4 component forked from http://ng2-duallistbox-demo.surge.sh/ 
 
-
-Uses Bootstrap 3 classes for styling and responsiveness
-
-[![NPM](https://nodei.co/npm/ng2-dual-list-box.png?downloads=true&downloadRank=true)](https://npmjs.org/package/ng2-dual-list-box)
-
-[![Build Status](https://travis-ci.org/matsura/ng2-dual-list-box.svg?branch=master)](https://travis-ci.org/matsura/ng2-dual-list-box) [![Coverage Status](https://coveralls.io/repos/github/matsura/ng2-dual-list-box/badge.svg?branch=master)](https://coveralls.io/github/matsura/ng2-dual-list-box?branch=master)
-
-## Documentation
-
-Full documentation available at http://ng2-duallistbox-docs.surge.sh/
+Uses symbolic titles instead of Glyphicons.
 
 ## Demo
 

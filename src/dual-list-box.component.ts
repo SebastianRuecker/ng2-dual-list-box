@@ -27,6 +27,14 @@ export class DualListBoxComponent implements OnInit, ControlValueAccessor {
             text: item[this.textField]
         }))];
     };
+
+    //array of items to display as selected in the right box
+    @Input() set selectedData(items: Array<{}>) {
+        this.selectedItems = [...(items || []).map((item: {}, index: number) => ({
+            value: item[this.valueField].toString(),
+            text: item[this.textField]
+        }))];
+    };
     // input to set search term for available list box from the outside
     @Input() set availableSearch(searchTerm: string) {
         this.searchTermAvailable = searchTerm;
